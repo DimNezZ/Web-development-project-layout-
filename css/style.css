@@ -58,7 +58,7 @@ body{
 	background: rgb(255, 255, 255);
 }
 .greeting__wrapper {
-	background: url(/img/greeting-bg.png) no-repeat;
+	background: url(/img/greetingBg.png) no-repeat;
 	background-size: 100% auto;
 }
 .greeting {
