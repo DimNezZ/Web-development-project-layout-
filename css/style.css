@@ -183,7 +183,7 @@ body{
 
 }
 .item__image {
-	background:url(/img/icons/smartphone-black.png) no-repeat;
+	background:url(../img/icons/smartphone-black.png) no-repeat;
 	width: 62px;
 	height: 62px;
 	background-position: center;
@@ -230,7 +230,7 @@ body{
 	transition: 0.5s;
 }
 .service__item:hover .item__image {
-	background:url(/img/icons/smartphone-white.png) no-repeat;
+	background:url(../img/icons/smartphone-white.png) no-repeat;
 	transition: 0.5s;
 }
 
@@ -325,25 +325,25 @@ body{
     font-size: 0.75em;
 }
 .image_1 {
-	--image: url(/img/galery-card-image_1.png);
+	--image: url(../img/galery-card-image_1.png);
 }
 .image_2 {
-	--image: url(/img/galery-card-image_2.png);
+	--image: url(../img/galery-card-image_2.png);
 }
 .image_3 {
-	--image: url(/img/galery-card-image_3.png);
+	--image: url(../img/galery-card-image_3.png);
 }
 
 .image_4 {
-	--image: url(/img/galery-card-image_4.png);
+	--image: url(../img/galery-card-image_4.png);
 }
 
 .image_5 {
-	--image: url(/img/galery-card-image_5.png);
+	--image: url(../img/galery-card-image_5.png);
 }
 
 .image_6 {
-	--image: url(/img/galery-card-image_6.png);
+	--image: url(../img/galery-card-image_6.png);
 }
 
 
@@ -593,7 +593,7 @@ body{
 }
 
 .contact-us__wrapper {
-	background:url(/img/contact-us_bg.png) no-repeat;
+	background:url(../img/contact-us_bg.png) no-repeat;
 	background-size: 100% auto;
 }
 .contact-us {
