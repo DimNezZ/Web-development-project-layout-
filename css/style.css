@@ -180,6 +180,7 @@ body{
 	max-width: 320px;
 	background-color: #fff;
 	padding: 50px;
+	transition: 0.5s;
 
 }
 .item__image {
@@ -378,6 +379,7 @@ body{
 	flex: 0 1 33.333%;
 	background-color: #fff;
 	margin: 0 -30px;
+	transition: 0.5s;
 
 }
 .pricing-plan__item__label {
