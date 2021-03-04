@@ -35,20 +35,29 @@ body{
 .header__logo {
 	font-size: 25px;
 	font-weight: 700;
+	padding: 0 15px;
 }
-.header__row {}
+.header__row {
+
+}
 
 .header__links {
 	display: flex;
+	flex-wrap: wrap;
+
 }
 .header__link {
 	display: flex;
+	flex-wrap: wrap;
 	font-size: 20px;
 	line-height: 22px;
+
 }
 .header__link > li > a {
 	margin: 0 20px;
 	color: #000;
+	line-height: 24px;
+
 }
 .header__link > li > a:hover {
 	color: #00897b;
@@ -56,10 +65,12 @@ body{
 
 .header__search > button {
 	background: rgb(255, 255, 255);
+	margin: 0 20px;
 }
+
 .greeting__wrapper {
 	background: url(../img/greetingBg.png) no-repeat;
-	background-size: 100% auto;
+	background-size: cover;
 }
 .greeting {
 	color:rgb(255, 255, 255);
@@ -79,8 +90,9 @@ body{
 }
 .greeting__buttons {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
-	margin: 105px 0 0 0;
+	margin: 90px 0 0 0;
 }
 .greeting__buttons-item {
 	margin: 0 12.5px;
@@ -88,6 +100,7 @@ body{
 	width: 220px;
 	padding: 10px 15px;
 	transition: 1s;
+	margin: 15px 0 0 0;
 }
 .greeting__buttons-item:hover {
 	background-color: #00897b;
@@ -132,11 +145,12 @@ body{
 	display: flex;
 	justify-content: space-between;
 	margin: 125px 0 0 0;
-
+	flex-wrap: wrap;
 }
 .about-us__item {
 	flex: 0 1 33.33%;
 	max-width: 260px;
+	min-width: 260px;
 }
 .item__images > img{
 	max-width: 62px;
@@ -165,22 +179,22 @@ body{
 }
 .service__title {}
 .service__subtitle {}
+
 .service__row {
 	display: flex;
 	justify-content: space-between;
-	margin: 125px 0 0 0;
+	margin: 95px 0 0 0;
 	flex-wrap: wrap;
-}
-.service__row:nth-last-child(1){
-	margin: 30px 0 0 0;
 }
 
 .service__item {
 	flex: 0 1 33.33%;
 	max-width: 320px;
+	min-width: 320px;
 	background-color: #fff;
 	padding: 50px;
 	transition: 0.5s;
+	margin: 30px 0 0 0;
 
 }
 .item__image {
@@ -204,6 +218,7 @@ body{
 	margin: 40px 0 0 0;
 }
 .item__button > a {
+	display: inline-block;
 	border: 2px solid rgb(0, 0, 0);
 	width: 145px;
 	padding: 10px 15px;
@@ -252,7 +267,7 @@ body{
 .latest-works__galery {
 }
 .galery__button {
-	margin: 110px 0;
+	margin: 100px 0;
 
 }
 
@@ -263,7 +278,7 @@ body{
 	text-transform: uppercase;
 	font-size: 20px;
 	border: 2px solid #00897b;
-	margin: 0px 10px;
+	margin: 5px 10px;
 	transition: 1s;
 }
 .galery__button > a:hover {
@@ -374,14 +389,16 @@ body{
 .pricing-plan__row {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .pricing-plan__item {
 	flex: 0 1 33.333%;
 	background-color: #fff;
-	margin: 0 -30px;
+	margin: 15px -30px;
 	transition: 0.5s;
-
+	min-width: 300px;
 }
+
 .pricing-plan__item__label {
 	background-color: #3949ab;
 	color:#fff;
@@ -399,7 +416,7 @@ body{
 	line-height: 1;
 }
 .pricing-plan__cards {
-	margin: 125px 0 0 0;
+	margin: 95px 0 0 0;
 }
 .pricing-plan__item__subtitle > p {
 	display: inline-block;
@@ -458,19 +475,26 @@ body{
 	margin: 0 auto;
 }
 .our-team__cards {
-	margin: 125px 0 0 0;
+	margin: 95px 0 0 0;
 }
 .our-team__row {
 	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	justify-content: center;
 }
 .our-team__item {
 	flex: 0 1 33.333%;
+	margin: 30px 0 0 0;
 }
 .our-team__item__image {
 	margin: 0 0 35px 0;
 }
 .our-team__item__employee {
 	border-radius: 10px;
+}
+.our-team__item__image > img {
+	max-width: 100%
 }
 .our-team__item__description{
 	margin: 0 0 25px 0;
@@ -546,9 +570,13 @@ body{
 	text-align: left;
 	margin: 60px 0 0 30px;
 }
+.blog__item__image > img{
+	max-width:100%;
+}
 .blog_image {
 	border-radius: 5px;
 }
+
 .blog__item__title {
 	font-size: 25px;
 	line-height: 22px;
@@ -596,7 +624,7 @@ body{
 
 .contact-us__wrapper {
 	background:url(../img/contactUsBg.png) no-repeat;
-	background-size: 100% auto;
+	background-size: cover;
 }
 .contact-us {
 	max-width: 1170px;
@@ -608,12 +636,14 @@ body{
 .contact-us__row {
 	display: flex;
 	margin: 0 0 80px 0;
+	flex-wrap: wrap;
 }
 .contact-us__item {
 	flex: 0 1 33.333%;
+	margin: 20px 0 0  0;
 }
 .contact-us__row {
-	margin: 100px 0 0 0;
+	margin: 80px 0 0 0;
 }
 .contact-us__item__image {
 		display: flex;
@@ -698,7 +728,37 @@ body{
 .footer__text {
 	font-size: 20px;
 }
-
+@media (max-width: 1200px) {
+	.blog__item {
+		flex-wrap: wrap;
+		margin: 20px;
+		padding: 10px;
+		min-width: 300px;
+	}
+	.blog__item:first-child {
+		margin: 100px 0 0 0;
+	}
+	.card {
+		margin: 10px;
+	}
+}
+@media (max-width: 768px) {
+	.pricing-plan__row {
+		justify-content: space-around;
+	}
+	.about-us__row {
+		justify-content: space-around;
+	}
+	.service__row {
+		justify-content: space-around;
+	}
+	.contact-us__row {
+		justify-content: space-around;
+	}
+	.header__search > button {
+		margin: 10px 20px;
+	}
+}
 
 
 
