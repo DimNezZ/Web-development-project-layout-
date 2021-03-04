@@ -95,12 +95,12 @@ body{
 	margin: 90px 0 0 0;
 }
 .greeting__buttons-item {
-	margin: 0 12.5px;
+
 	border: 2px solid rgb(255, 255, 255);
 	width: 220px;
 	padding: 10px 15px;
 	transition: 1s;
-	margin: 15px 0 0 0;
+	margin: 15px 12.5px 0 12.5px;
 }
 .greeting__buttons-item:hover {
 	background-color: #00897b;
@@ -388,13 +388,14 @@ body{
 }
 .pricing-plan__row {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
+
 }
 .pricing-plan__item {
-	flex: 0 1 33.333%;
+	flex: 0 1 380px;
 	background-color: #fff;
-	margin: 15px -30px;
+	margin: 15px 4.5px;
 	transition: 0.5s;
 	min-width: 300px;
 }
@@ -758,6 +759,10 @@ body{
 	.header__search > button {
 		margin: 10px 20px;
 	}
+	.blog__item {
+	align-items:center
+	}
+
 }
 
 
