@@ -760,6 +760,7 @@ body{
 		margin: 10px 20px;
 	}
 	.blog__item {
+		justify-content: center;
 	align-items:center
 	}
 
